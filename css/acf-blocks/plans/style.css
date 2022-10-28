@@ -1,0 +1,232 @@
+.plans-section {
+   padding: 73px 0;
+}
+
+.plans-section h2 {
+   max-width: 620px;
+   margin: 0 auto 14px auto;
+
+}
+
+.plans-section p.lead-text {
+   max-width: 580px;
+   margin: 0 auto;
+   text-align: center;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 30px;
+}
+
+.plans-section .button.secondary-button {
+   margin: 21px auto 0 auto;
+}
+
+.plans-section .card {
+   display: flex;
+   flex-direction: column;
+   height: 460px;
+   width: 240px;
+   background: #FFFFFF;
+   border: 1px solid #F3F2F4;
+   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.07), inset 0px -10px 20px rgba(0, 0, 0, 0.03);
+   border-radius: 24px;
+   margin-right: 20px;
+   margin-top: 10px;
+   padding: 16px;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.plans-section .col {
+   margin: 0 auto;
+}
+
+.plans-section .row {
+   display: flex;
+   margin-bottom: 40px;
+ }
+
+.plans-cards-wrapper {
+   justify-content: flex-end;
+   flex-wrap: wrap;
+}
+
+@media (max-width: 1245px) {
+   .plans-cards-wrapper {
+      justify-content: center;
+   }
+
+   .plans-section .dashboard img {
+      width: 100%;
+      object-fit: contain;
+   }
+
+   .plans-section .card {
+      margin-top: 10px;
+   }
+}
+
+@media (max-width:450px) {
+   .plans-section .card {
+      margin-right: 0;
+   }
+}
+
+.plan-b .image-wrapper {
+   background: #FFFFFF;
+   border: 1px solid #E7E7E7;
+   border-radius: 20px;
+}
+
+.plan-b .image-wrapper {
+   background: #FFFFFF;
+   border: 1px solid #E7E7E7;
+   border-radius: 20px;
+   min-width: 70px;
+   min-height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.plans-section .plan-b .image-wrapper {
+   background: #FFFFFF;
+   border: 1px solid #E7E7E7;
+   border-radius: 20px;
+   width: 40px;
+   height: 40px;
+}
+
+.plans-section .plan-a .image-wrapper {
+   background: #EDF9EF;
+   border-radius: 40px;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.plans-section .plan-a .item {
+   border: 1px solid #E7E7E7;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-bottom: 16px;
+   border-radius: 6px;
+   height: 60px;
+   padding: 0 16px;
+}
+
+.plans-section .plan-b .item {
+   border: 1px solid #E7E7E7;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-bottom: 16px;
+   border-radius: 6px;
+   height: 110px;
+}
+
+.plans-section .card a.button {
+   width: 100%;
+   height: 44px;
+   color: #FFFFFF;
+   border-radius: 6px;
+}
+
+.plans-section .plan-a a.button {
+   background: #73C34F;
+}
+
+.plans-section .plan-b a.button {
+   background: #899198;
+   border: 1px solid #899198;
+}
+
+.plans-section .plan-a .col-50:nth-child(2) {
+   justify-content: flex-end;
+}
+
+.plans-section .plan-a .col-50:nth-child(2) p{
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 24px;
+   text-align: right;
+}
+
+.plans-section .plan-a .image-wrapper + p {
+   font-weight: 600;
+   font-size: 22px;
+   line-height: 24px;
+   text-align: center;
+   color: #111111;
+}
+
+.plans-section .plan-a h3 {
+   font-size: 14px;
+   line-height: 24px;
+}
+
+.plans-section .plan-a h3 + p {
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 24px;
+   color: #8F8F8F;
+}
+
+.plans-section .plan-a,
+.plans-section .plan-b {
+   position: relative;
+}
+
+.plans-section .card::after {
+   border-radius: 6px;
+   width: 40px;
+   height: 40px;
+   color: #ffffff;
+   position: absolute;
+   left: 8.33%;
+   right: 75%;
+   top: -4.35%;
+   bottom: 95.65%;
+   line-height: 40px;
+   text-align: center;
+   font-weight: 700;
+   font-size: 34px;
+}
+
+.plans-section .plan-a::after {
+   content: "A";
+   background: #73C34F;
+}
+
+.plans-section .plan-b::after {
+   content: "B";
+   color: #899198;
+   background-color: #E5E9EC;
+}
+
+.plans-section .col-33 {
+   max-width: 300px;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.plans-section .card-wrapper {
+   max-width: 1140px;
+   margin: 0 auto 38px auto;
+
+}
+
+.plans-section .col-33 img {
+   width: 60px;
+   height: 60px;
+   margin-bottom: 16px;
+}

@@ -1,0 +1,23 @@
+.block-leadership-slider {
+  background-color: #F9F8FB;
+  padding-top: 73px;
+  padding-bottom: 12px;
+}
+
+.block-leadership-slider h2 {
+  margin-top: 0;
+  margin-bottom: 29px;
+}
+
+.block-leadership-slider h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #696969;
+  text-align: center;
+}
+
+.block-leadership-slider img {
+  margin: 0 auto;
+}
+
